@@ -1,5 +1,5 @@
 const Transaction = require('../models/Transaction');
-const Log = require('../models/log');
+const Log = require('../models/Log');
 const ExcelJS = require('exceljs');
 const PDFDocument = require('pdfkit');
 
