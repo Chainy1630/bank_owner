@@ -92,7 +92,7 @@ router.post('/lend-search', transactionController.searchLendTransaction);
 router.post('/lend-update/:id', transactionController.updateLend);
 router.post('/update-transaction/:id', transactionController.updateInterestPayment);
 
-const Log = require('../models/log');
+const Log = require('../models/Log');
 const calog = require("../models/calog");  // The new model
 
 router.get("/ca", async (req, res) => {
